@@ -1,9 +1,10 @@
 #header {
     font-family: 'Courier New', Courier, monospace;
-    font-size: small;
+    font-size: x-large; 
     text-align: center;
-    color: #D4E0E0;
+    color: #9ebcbc;
 }
  body {
     background-image: url(bg.jpg);
+    background-size: cover;
  }

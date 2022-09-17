@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Amxthyzt </title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="header">
+            <img src="">
+            <h1> Amxthyzt </h1>
+            <h3> The Future of Music </h3>
+        </div>
+        
+    </body>
+</html>

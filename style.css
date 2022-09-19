@@ -1,10 +1,115 @@
 #header {
     font-family: 'Courier New', Courier, monospace;
-    font-size: x-large; 
+    font-size: x-large;
+    color: #b3bcbc;
     text-align: center;
-    color: #9ebcbc;
 }
  body {
     background-image: url(bg.jpg);
     background-size: cover;
  }
+
+ ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(72, 71, 71);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+  .active {
+    background-color: #04AA6D;
+  }
+  ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  img {
+    size: 11px;
+  }
+  .title {
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+  }
+  .forms {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  input[type="text"], input[type="email"], input[type="password"], button {
+    font-size: large;
+    color: rgb(26, 0, 0);
+    border-radius: 10px;
+    height: 1cm;
+    background-color: #ffffff00;
+  }
+  .link {
+    color: #dbeeff;
+  }
+img {
+  height: 100px;
+  width: 100px;
+}
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 10%;
+  background-color: #ffffffb6;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 20px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #a9d7d76c;
+  color: white;
+  width: auto;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+.forms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

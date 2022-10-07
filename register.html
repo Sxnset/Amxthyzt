@@ -20,24 +20,27 @@
           </ul>
           </div>
         <div class="forms">
-            <h1 class=title>Register</h1>
-            <form>
-                <input type="email" placeholder="Email" required>
-                <br>
-                <br>
-                <input type="text" placeholder="Username" required>
-                <br>
-                <br>
-                <input type="password" placeholder="Password" required>
-                <br>
-                <br>
-                <input type="password" placeholder="Comfim Password" required>
-                <br>
-                <br>
-                <button class="btn">Sign Up</button>
-           </form>
-            <p >Already have an account?</p>
-            <a href="login.html" class="link">Click here to sign in</a>
-        </div>
+            <div class="container">
+        <form id="createAccount">
+            <h1 class="title">Create Account</h1>
+                <input type="text"  class="form__input" autofocus placeholder="Username" required spellcheck="false">
+            <br>
+            <br>
+                <input type="text" class="form__input" autofocus placeholder="Email Address" required spellcheck="false">
+            <br>
+            <br>
+                <input type="password" class="form__input" autofocus placeholder="Password" required spellcheck="false">
+            <br>
+            <br>
+                <input type="password" class="form__input" autofocus placeholder="Confirm password" required spellcheck="false">
+            <br>
+            <br>
+            <button class="form__button" type="submit" id="btn-submit">Register</button>
+            <p class="form__text">
+                <a class="form__link" href="login.html" id="linkLogin">Already have an account? Sign in</a>
+            </p>
+        </form>
+    </div>
+    </div>
     </body>
 </html>

@@ -58,7 +58,7 @@
     justify-content: center;
     align-items: center;
   }
-  input[type="text"], input[type="email"], input[type="password"], button {
+  input[type="text"], input[type="email"], input[type="password"], button, .form__input {
     font-size: large;
     color: rgb(26, 0, 0);
     border-radius: 10px;
